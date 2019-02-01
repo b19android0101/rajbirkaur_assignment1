@@ -8,8 +8,9 @@ public class Student {
 		String roll_no;
 		String name;
 		char grade;
-		double eng_marks,math_marks,sci_marks,total_marks,average;
+		double eng_marks;
 		double math_marks;
+		double sci_marks,total_marks,average;
 		BufferedReader s=new BufferedReader(new InputStreamReader(System.in));
 		Student()throws IOException
 		{
